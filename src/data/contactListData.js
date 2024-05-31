@@ -6,7 +6,7 @@ export const contactListData = [
         name: 'John Doe',
         gender: 'Male',
         email: 'johndoe@example.com',
-        phoneNo: '123-456-7890',
+        phoneNo: 7894561230,
         contactType: 'Business',
     },
     {
@@ -14,7 +14,7 @@ export const contactListData = [
         name: 'Jane Smith',
         gender: 'Female',
         email: 'janesmith@example.com',
-        phoneNo: '234-567-8901',
+        phoneNo: 8901234561,
         contactType: 'Personal',
     },
     {
@@ -22,7 +22,7 @@ export const contactListData = [
         name: 'Michael Johnson',
         gender: 'Male',
         email: 'michaeljohnson@example.com',
-        phoneNo: '345-678-9012',
+        phoneNo: 9012345672,
         contactType: 'Personal',
     },
     {
@@ -30,7 +30,7 @@ export const contactListData = [
         name: 'Emily Davis',
         gender: 'Female',
         email: 'emilydavis@example.com',
-        phoneNo: '456-789-0123',
+        phoneNo: 7890123453,
         contactType: 'Personal',
     },
     {
@@ -38,7 +38,7 @@ export const contactListData = [
         name: 'Chris Brown',
         gender: 'Male',
         email: 'chrisbrown@example.com',
-        phoneNo: '567-890-1234',
+        phoneNo: 8901234564,
         contactType: 'Personal',
     },
     {
@@ -46,7 +46,7 @@ export const contactListData = [
         name: 'Amanda Miller',
         gender: 'Female',
         email: 'amandamiller@example.com',
-        phoneNo: '678-901-2345',
+        phoneNo: 9012345675,
         contactType: 'Personal',
     },
     {
@@ -54,7 +54,7 @@ export const contactListData = [
         name: 'David Wilson',
         gender: 'Male',
         email: 'davidwilson@example.com',
-        phoneNo: '789-012-3456',
+        phoneNo: 7890123456,
         contactType: 'Business',
     },
     {
@@ -62,7 +62,7 @@ export const contactListData = [
         name: 'Sophia Moore',
         gender: 'Female',
         email: 'sophiamoore@example.com',
-        phoneNo: '890-123-4567',
+        phoneNo: 8901234567,
         contactType: 'Personal',
     },
     {
@@ -70,7 +70,7 @@ export const contactListData = [
         name: 'James Taylor',
         gender: 'Male',
         email: 'jamestaylor@example.com',
-        phoneNo: '901-234-5678',
+        phoneNo: 9012345678,
         contactType: 'Business',
     },
     {
@@ -78,7 +78,7 @@ export const contactListData = [
         name: 'Olivia Anderson',
         gender: 'Female',
         email: 'oliviaanderson@example.com',
-        phoneNo: '012-345-6789',
+        phoneNo: 7890123459,
         contactType: 'Personal',
     },
     {
@@ -86,7 +86,7 @@ export const contactListData = [
         name: 'Robert Thomas',
         gender: 'Male',
         email: 'robertthomas@example.com',
-        phoneNo: '123-456-7890',
+        phoneNo: 8901234560,
         contactType: 'Business',
     },
     {
@@ -94,15 +94,15 @@ export const contactListData = [
         name: 'Isabella Jackson',
         gender: 'Female',
         email: 'isabellajackson@example.com',
-        phoneNo: '234-567-8901',
-        contactType: 'Personal',
+        phoneNo: 9012345671,
+        contactType: 'Business',
     },
     {
         id: uuidv4(),
         name: 'Daniel White',
         gender: 'Male',
         email: 'danielwhite@example.com',
-        phoneNo: '345-678-9012',
+        phoneNo: 7890123452,
         contactType: 'Business',
     },
     {
@@ -110,15 +110,15 @@ export const contactListData = [
         name: 'Mia Harris',
         gender: 'Female',
         email: 'miaharris@example.com',
-        phoneNo: '456-789-0123',
+        phoneNo: 8901234563,
         contactType: 'Personal',
     },
     {
         id: uuidv4(),
-        name: 'Joseph Martin',
-        gender: 'Male',
-        email: 'josephmartin@example.com',
-        phoneNo: '567-890-1234',
+        name: 'Linda Martin',
+        gender: 'Female',
+        email: 'lindahmartin@example.com',
+        phoneNo: 9012345674,
         contactType: 'Business',
     },
 ];
