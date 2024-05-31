@@ -7,7 +7,6 @@ import {
     updateInLocalStorage,
 } from '@/utils/localStorage';
 
-// Load state from localStorage
 const localStorageData = getDataFromLocalStorage();
 
 const initialState = {

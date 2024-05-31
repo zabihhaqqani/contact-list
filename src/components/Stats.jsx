@@ -21,7 +21,7 @@ export default function Stats({ category }) {
     return (
         <Card className="w-[200px]">
             <CardHeader className="pb-2">
-                <CardDescription className="capitalize ">
+                <CardDescription className="capitalize">
                     {category} Contacts
                 </CardDescription>
                 <CardTitle className="text-3xl">

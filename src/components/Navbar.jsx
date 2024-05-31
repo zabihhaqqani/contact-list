@@ -13,7 +13,7 @@ const Navbar = () => {
         location.pathname === path ? 'bg-[#ffffff2c]' : '';
 
     return (
-        <div className="flex  justify-center mb-3 p-2 items-center  md:text-[16px] bg-[black] text-white">
+        <div className="flex  justify-center mb-3 p-2 items-center  md:text-[16px] bg-[black] text-white pl-[calc(100vw-100%)]">
             <ul className="flex md:gap-10 justify-center">
                 <li
                     onClick={() => navigate('/')}

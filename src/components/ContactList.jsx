@@ -14,21 +14,24 @@ export default function ContactList({ type }) {
     );
 
     return (
-        <div>
-            <h2 className="text-[16px] md:text-[18px] font-semibold my-4">
-                {type} Contacts ({filteredContacts?.length})
-            </h2>
-            <AddContact />
-
+        <div className="pl-[calc(100vw-100%)]">
+            <div>
+                <h2 className="text-[16px] md:text-[18px] font-semibold my-4]">
+                    {type} Contacts ({filteredContacts?.length})
+                </h2>
+                <AddContact />
+            </div>
             <div className="flex justify-center">
                 {filteredContacts?.length >= 1 ? (
                     <div className="flex flex-col mx-5">
-                        {filteredContacts?.map((contact) => (
-                            <ContactCard
-                                key={contact.id}
-                                contact={contact}
-                            />
-                        ))}
+                        {filteredContacts
+                            ?.reverse()
+                            ?.map((contact) => (
+                                <ContactCard
+                                    key={contact.id}
+                                    contact={contact}
+                                />
+                            ))}
                     </div>
                 ) : (
                     <p className="mt-5 bg-gray-100 p-3 rounded-md font-semibold">
