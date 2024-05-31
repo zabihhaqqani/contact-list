@@ -1,6 +1,6 @@
 # Contact List Application 
 
-Welcome to the documentation for a contact application built with ReactJS, Redux, Tailwind CSS, and Lucide React for icons. This application is mobile-responsive and features a minimalist design.
+A Contact List Application built with ReactJS, Redux Toolkit, Tailwind CSS, and Lucide React for icons. This application is mobile-responsive and features a sleek and minimalist design.
 
 ## Features
 
