@@ -3,14 +3,14 @@ html,
 body {
     scrollbar-width: thin;
     /* For Firefox */
-    scrollbar-color: #888 #f1f1f1;
+    scrollbar-color: rgba(0, 0, 0, 0.767) #f1f1f1;
     /* For Firefox */
 }
 
 /* For Chrome, Edge, and Safari */
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
 }
 
 html::-webkit-scrollbar-track,
