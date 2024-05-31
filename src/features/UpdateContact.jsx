@@ -82,6 +82,7 @@ export function UpdateContact({ contact }) {
                         name="name"
                         value={contactDetails.name}
                         onChange={handleInputChange}
+                        maxLength="15"
                     />
                     <Input
                         placeholder="Phone No"
@@ -89,7 +90,18 @@ export function UpdateContact({ contact }) {
                         type="number"
                         name="phoneNo"
                         value={contactDetails.phoneNo}
-                        onChange={handleInputChange}
+                        onChange={(e) => {
+                            const { name, value } = e.target;
+
+                            const sanitizedValue = value
+                                .replace(/\D/g, '')
+                                .slice(0, 10);
+
+                            setContactDetails((prev) => ({
+                                ...prev,
+                                [name]: sanitizedValue,
+                            }));
+                        }}
                     />
                     <Input
                         placeholder="Email"
@@ -98,6 +110,7 @@ export function UpdateContact({ contact }) {
                         name="email"
                         value={contactDetails.email}
                         onChange={handleInputChange}
+                        maxLength="30"
                     />
                     <div className="flex justify-between">
                         <RadioGroup

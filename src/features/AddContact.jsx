@@ -26,11 +26,11 @@ export function AddContact() {
 
     const [contactDetails, setContactDetails] = useState({
         id: uuidv4(),
-        name: 'd',
-        phoneNo: '3',
-        email: 'z@gmail.com',
-        gender: 'Male',
-        contactType: 'Business',
+        name: '',
+        phoneNo: '',
+        email: '',
+        gender: '',
+        contactType: '',
     });
 
     const addContactHandler = (e) => {
@@ -70,7 +70,7 @@ export function AddContact() {
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <div className="flex justify-center">
+                <div className="flex justify-center my-3">
                     <button className="flex items-center">
                         <span>
                             <CirclePlus className="mx-1" />
@@ -99,14 +99,26 @@ export function AddContact() {
                         name="name"
                         value={contactDetails.name}
                         onChange={handleInputChange}
+                        maxLength="15"
                     />
                     <Input
                         placeholder="Phone No"
                         required
-                        type="text"
+                        type="number"
                         name="phoneNo"
                         value={contactDetails.phoneNo}
-                        onChange={handleInputChange}
+                        onChange={(e) => {
+                            const { name, value } = e.target;
+
+                            const sanitizedValue = value
+                                .replace(/\D/g, '')
+                                .slice(0, 10);
+
+                            setContactDetails((prev) => ({
+                                ...prev,
+                                [name]: sanitizedValue,
+                            }));
+                        }}
                     />
                     <Input
                         placeholder="Email"
@@ -115,6 +127,7 @@ export function AddContact() {
                         name="email"
                         value={contactDetails.email}
                         onChange={handleInputChange}
+                        maxLength="30"
                     />
                     <div className="flex justify-between">
                         <RadioGroup
