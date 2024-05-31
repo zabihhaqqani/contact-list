@@ -1,6 +1,6 @@
-# Contact Application Documentation
+# Contact List Application 
 
-Welcome to the documentation for our sleek and modern contact application built with ReactJS, Redux, Tailwind CSS, and Lucide React for icons. This application is mobile-responsive and features a minimalist design.
+Welcome to the documentation for a contact application built with ReactJS, Redux, Tailwind CSS, and Lucide React for icons. This application is mobile-responsive and features a minimalist design.
 
 ## Features
 
@@ -63,10 +63,6 @@ To use this application locally:
 
 This application is deployed using Vercel. It is accessible at [https://your-contact-app.vercel.app](https://your-contact-app.vercel.app).
 
-## Contributions
-
-Contributions are welcome! If you have any ideas for improvements or find any bugs, feel free to open an issue or submit a pull request.
-
 ## Credits
 
 - [ReactJS](https://reactjs.org/)
@@ -74,7 +70,3 @@ Contributions are welcome! If you have any ideas for improvements or find any bu
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Lucide React](https://lucide.dev/)
 - Icons by [Lucide Icons](https://lucide.dev/)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](/path/to/LICENSE) file for details.
