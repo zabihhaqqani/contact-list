@@ -131,7 +131,7 @@ export function AddContact() {
                     />
                     <div className="flex justify-between">
                         <RadioGroup
-                            className="flex gap-5"
+                            className="flex"
                             required
                             value={contactDetails.gender}
                             onValueChange={(value) =>
@@ -169,9 +169,9 @@ export function AddContact() {
                                 </Label>
                             </div>
                         </RadioGroup>
-                        <div className="border border-black mx-1"></div>
+                        <div className="border border-1 border-gray-300"></div>
                         <RadioGroup
-                            className="flex gap-5"
+                            className="flex"
                             required
                             value={contactDetails.contactType}
                             onValueChange={(value) =>
